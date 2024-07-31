@@ -171,7 +171,7 @@ img {
   padding: 32px 0;
   text-align: center;
 }
-.social-list-link {
+/* .social-list-link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -187,7 +187,7 @@ img {
 .social-list-link:hover,
 .social-list-link:focus {
   background-color: #404bbf;
-}
+} */
 
 .list-time-name {
   font-weight: 500;
@@ -448,7 +448,7 @@ input:focus + svg {
   fill: #4d5ae5;
 }
 
-.modal-button {
+/* .modal-button {
   position: absolute;
   display: flex;
   align-items: center;
@@ -467,7 +467,7 @@ input:focus + svg {
 
   flex-direction: row;
   gap: 10px;
-}
+} */
 .modal-form-icon-input {
   border: 1px solid rgba(46, 47, 66, 0.4);
   outline: transparent;
