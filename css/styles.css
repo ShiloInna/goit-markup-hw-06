@@ -497,7 +497,9 @@ input:focus + svg {
     font-size: 20px;
     line-height: 1.2;
   }
-
+  .benefits-list-icon {
+    display: flex;
+  }
   .list-benefits-text {
     font-weight: 400;
   }
@@ -892,7 +894,7 @@ input:focus + svg {
   min-height: 584px;
   margin-left: auto;
   margin-right: auto;
-  padding: 9px 16px;
+  padding: 72px 16px 24px 16px;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12),
     0 2px 1px 0 rgba(0, 0, 0, 0.2);
   background: #fcfcfc;
@@ -1072,9 +1074,14 @@ input:focus + svg {
   border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-checkbox {
+.check-text {
   display: flex;
   align-items: center;
+  gap: 8px;
+}
+
+.check-color {
+  flex-shrink: 0;
 }
 @media screen and (min-width: 768px) {
   .modal-overley {
